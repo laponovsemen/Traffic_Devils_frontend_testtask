@@ -1,0 +1,25 @@
+.login_form{
+    display : flex;
+    justify-content: center;
+    justify-items: center;
+    width: 400px;
+    height: 400px;
+    gap: 5px;
+    flex-direction: column;
+}
+.login_form_button {
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 5px;
+}
+.login_form__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    background-color: #ffbf4b;
+}

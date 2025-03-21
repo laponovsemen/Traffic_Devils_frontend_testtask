@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.Main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.App-sidebar {
+
+}
+.App-header {
+  text-align:end;
+  height: 5vh;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+
+  font-size: .5rem;
+  background-color: gold;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.App-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
