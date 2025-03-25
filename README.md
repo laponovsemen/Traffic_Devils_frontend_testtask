@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Node.js version used during development - v22.14.0
+
+## Instructions for starting application after creating a new project in dev mode
+1. clone project using
+   ```git clone https://github.com/laponovsemen/Traffic_Devils_frontend_testtask.git .```
+2. place ```.env``` file in the project root
+3. run `pnpm install` in the root directory of the project to install all necessary dependencies
+4. run `pnpm run start` - for running application in dev mode
+
+## Instructions for starting application after creating a new project in production mode
+1. clone project using
+   ```git clone https://github.com/laponovsemen/Traffic_Devils_frontend_testtask.git .```
+2. place ```.env``` file in the project root
+3. run `pnpm install` in the root directory of the project to install all necessary dependencies
+4. run `pnpm run build` - for building production build of application
+5. run `pnpm install -g serve` - for installation static server
+6. run `serve -s build` - for installation static server
+
+## Important! you need to provide in env's correct urls of Client and Backend due to CORS. host of running Frontend and CLIENT_URL env must be the same, for example: http://localhost:3000
+
 ## Available Scripts
 
 In the project directory, you can run:
