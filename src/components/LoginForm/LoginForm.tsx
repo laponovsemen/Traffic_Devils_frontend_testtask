@@ -19,6 +19,7 @@ const LoginForm: FC = () => {
 	return (
 		<div className="login_form__wrapper">
 			<div className="login_form">
+				<h2>Login</h2>
 				<input
 					value={email}
 					onChange={(e) => setEmail(e.target.value)}

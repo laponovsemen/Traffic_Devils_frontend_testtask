@@ -22,6 +22,7 @@ const RegistrationForm: FC = () => {
 	return (
 		<div className="login_form__wrapper">
 			<div className="login_form">
+				<h2>Registration</h2>
 				<input
 					value={login}
 					onChange={(e) => setLogin(e.target.value)}
