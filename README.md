@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. run `pnpm install` in the root directory of the project to install all necessary dependencies
 4. run `pnpm run build` - for building production build of application
 5. run `pnpm install -g serve` - for installation static server
-6. run `serve -s build` - for installation static server
+6. run `serve -s build` - for running static server with production build
 
 ## Important! you need to provide in env's correct urls of Client and Backend due to CORS. host of running Frontend and CLIENT_URL env must be the same, for example: http://localhost:3000
 
